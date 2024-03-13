@@ -208,6 +208,7 @@ import 'package:flutter_widgets_demo/demo_widgets/tween_animation_builder.dart';
 import 'package:flutter_widgets_demo/demo_widgets/value_listenable_builder.dart';
 import 'package:flutter_widgets_demo/demo_widgets/vertical_divider.dart';
 import 'package:flutter_widgets_demo/demo_widgets/visibility.dart';
+import 'package:flutter_widgets_demo/demo_widgets/web_view.dart';
 import 'package:flutter_widgets_demo/demo_widgets/will_pop_scope.dart';
 import 'package:flutter_widgets_demo/demo_widgets/wrap.dart';
 
@@ -427,6 +428,7 @@ const demoItems = [
   "Visibility",
   "WillPopScope",
   "Wrap",
+  "Web View",
   
 ];
 
@@ -647,6 +649,7 @@ Widget getWidgetForIndex(int index){
       210 => const Widget212(),
       211 => const Widget213(),
       212 => const Widget214(),
+      213 => const WebViewExample(),
 
       _ => throw Exception("Invalid index...")
     };
