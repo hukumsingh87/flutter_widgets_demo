@@ -21,13 +21,13 @@ class _Widget098State extends State<Widget098> {
         children: <Widget>[
           ExpansionTile(
             title: const Text('Expansion Tile'),
+            onExpansionChanged: (bool expanded) {},
+            controlAffinity: ListTileControlAffinity.leading,
             children: const <Widget>[
               ListTile(
                 title: Text('This is tile number'),
               ),
             ],
-            onExpansionChanged: (bool expanded) {},
-            controlAffinity: ListTileControlAffinity.leading,
           ),
         ],
       ),
