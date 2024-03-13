@@ -20,7 +20,6 @@ import 'package:flutter_widgets_demo/demo_widgets/animated_positioned.dart';
 import 'package:flutter_widgets_demo/demo_widgets/animated_rotation.dart';
 import 'package:flutter_widgets_demo/demo_widgets/animated_size.dart';
 import 'package:flutter_widgets_demo/demo_widgets/animated_switcher.dart';
-import 'package:flutter_widgets_demo/demo_widgets/animated_widget.dart';
 import 'package:flutter_widgets_demo/demo_widgets/app_bar.dart';
 import 'package:flutter_widgets_demo/demo_widgets/aspect_ratio.dart';
 import 'package:flutter_widgets_demo/demo_widgets/autocomplete.dart';
